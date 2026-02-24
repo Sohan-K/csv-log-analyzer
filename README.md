@@ -29,3 +29,4 @@ cd csv-log-analyzer
 python -m venv venv
 venv\Scripts\activate
 pip install pytest
+
