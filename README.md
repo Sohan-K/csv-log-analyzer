@@ -23,10 +23,27 @@ csv_log_analyzer/
 
 Clone the repository:
 
-```bash
+```Bash
 git clone https://github.com/<your-username>/csv-log-analyzer.git
 cd csv-log-analyzer
 python -m venv venv
 venv\Scripts\activate
 pip install pytest
+```
+
+## Usage
+
+```Bash
+python -c "from src.analyzer import analyze; from pathlib import Path; analyze(Path('data/sample.csv'), Path('output.json'))"
+```
+
+## Running Tests
+
+```Bash
+python -m pytest
+```
+
+## Requirements
+
+Python 3.10+
 
