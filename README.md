@@ -11,13 +11,14 @@ A lightweight Python utility to analyze CSV/log-style data and generate summary 
 
 ## Project Structure
 
-csv_log_analyzer/
+``` csv_log_analyzer/
 ├── src/
 │   └── analyzer.py
 ├── tests/
 │   └── test_analyzer.py
 ├── data/
-└── README.md
+└── README.md 
+```
 
 ## Installation
 
@@ -46,4 +47,5 @@ python -m pytest
 ## Requirements
 
 Python 3.10+
+
 
